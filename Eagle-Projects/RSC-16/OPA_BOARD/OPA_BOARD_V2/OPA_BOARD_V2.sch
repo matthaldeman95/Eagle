@@ -582,7 +582,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$1" library="RSC-16" deviceset="5X2RIBBONCONNECTOR" device=""/>
 <part name="C5" library="RSC-16" deviceset="CAP1206" device="" value="1UF"/>
-<part name="U$2" library="RSC-16" deviceset="MCP3008-SOIC16" device=""/>
+<part name="ADC" library="RSC-16" deviceset="MCP3008-SOIC16" device="" value=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -612,7 +612,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND4" gate="1" x="22.86" y="-30.48"/>
 <instance part="U$1" gate="G$1" x="134.62" y="71.12"/>
 <instance part="C5" gate="G$1" x="129.54" y="35.56" rot="R90"/>
-<instance part="U$2" gate="G$1" x="91.44" y="53.34"/>
+<instance part="ADC" gate="G$1" x="91.44" y="53.34"/>
 <instance part="GND5" gate="1" x="129.54" y="22.86"/>
 </instances>
 <busses>
@@ -737,7 +737,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="60.96" y="33.02"/>
 <wire x1="60.96" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
 <label x="66.04" y="33.02" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="4-CH3"/>
+<pinref part="ADC" gate="G$1" pin="4-CH3"/>
 <wire x1="81.28" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -756,7 +756,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="63.5" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <label x="68.58" y="68.58" size="1.778" layer="95"/>
 <wire x1="78.74" y1="68.58" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="2-CH1"/>
+<pinref part="ADC" gate="G$1" pin="2-CH1"/>
 <wire x1="78.74" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -772,7 +772,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="50.8" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="66.04" y="-10.16"/>
 <label x="71.12" y="-10.16" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="3-CH2"/>
+<pinref part="ADC" gate="G$1" pin="3-CH2"/>
 <wire x1="76.2" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="55.88" x2="76.2" y2="-10.16" width="0.1524" layer="91"/>
@@ -792,7 +792,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="63.5" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <junction x="63.5" y="106.68"/>
 <label x="66.04" y="106.68" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="1-CH0"/>
+<pinref part="ADC" gate="G$1" pin="1-CH0"/>
 <wire x1="63.5" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="106.68" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -819,12 +819,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="129.54" y1="25.4" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="14-AGND"/>
+<pinref part="ADC" gate="G$1" pin="14-AGND"/>
 <wire x1="101.6" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <label x="106.68" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="9-DGND"/>
+<pinref part="ADC" gate="G$1" pin="9-DGND"/>
 <wire x1="101.6" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
 <label x="106.68" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -886,7 +886,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="139.7" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="11-DIN"/>
+<pinref part="ADC" gate="G$1" pin="11-DIN"/>
 <wire x1="101.6" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
 <label x="106.68" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -899,12 +899,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C5" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="16-VDD"/>
+<pinref part="ADC" gate="G$1" pin="16-VDD"/>
 <wire x1="101.6" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 <label x="106.68" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="15-VREF"/>
+<pinref part="ADC" gate="G$1" pin="15-VREF"/>
 <wire x1="101.6" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 <label x="106.68" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -916,7 +916,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="134.62" y="45.72" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="13-CLK"/>
+<pinref part="ADC" gate="G$1" pin="13-CLK"/>
 <wire x1="101.6" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 <label x="106.68" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -928,7 +928,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="139.7" y="45.72" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="12-DOUT"/>
+<pinref part="ADC" gate="G$1" pin="12-DOUT"/>
 <wire x1="101.6" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
 <label x="106.68" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -940,7 +940,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="144.78" y="45.72" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="10-CS"/>
+<pinref part="ADC" gate="G$1" pin="10-CS"/>
 <wire x1="101.6" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 <label x="106.68" y="45.72" size="1.778" layer="95"/>
 </segment>
